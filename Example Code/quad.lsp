@@ -1,0 +1,12 @@
+(defun quad (a b c)
+	(cond ((= a 0) (/ c b))
+		(T (setf d (- (* b b)(* 4 (* a c))))
+			(setf dd (sqrt d))
+			(setf x1 (/ (+ (- 0 b) dd) (* 2 a)))
+			(setf x2 (/ (- (- 0 b) dd) (* 2 a)))
+			(print x1)
+			(print x2)
+			nil
+			)
+		)
+	)
